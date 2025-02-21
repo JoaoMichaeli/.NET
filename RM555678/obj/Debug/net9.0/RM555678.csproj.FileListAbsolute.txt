@@ -35,3 +35,4 @@ C:\Users\joaov\Documents\FIAP\.NET\RM555678\obj\Debug\net9.0\refint\RM555678.dll
 C:\Users\joaov\Documents\FIAP\.NET\RM555678\obj\Debug\net9.0\RM555678.pdb
 C:\Users\joaov\Documents\FIAP\.NET\RM555678\obj\Debug\net9.0\RM555678.genruntimeconfig.cache
 C:\Users\joaov\Documents\FIAP\.NET\RM555678\obj\Debug\net9.0\ref\RM555678.dll
+C:\Users\joaov\Documents\FIAP\.NET\RM555678\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
