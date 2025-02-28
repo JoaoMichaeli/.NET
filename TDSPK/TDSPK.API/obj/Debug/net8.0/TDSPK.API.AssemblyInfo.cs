@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TDSPK.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5fa02d2e5f5cfab29ffba153ee9be2ed5e82137")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5920335df4bcd732ac46c5c1869eb422b788339")]
 [assembly: System.Reflection.AssemblyProductAttribute("TDSPK.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TDSPK.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

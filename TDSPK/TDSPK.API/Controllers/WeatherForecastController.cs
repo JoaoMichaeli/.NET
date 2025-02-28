@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using TDSPK.API.Persistence;
 
 namespace TDSPK.API.Controllers;
 
@@ -19,7 +20,11 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpPost(Name = "GetWeatherForecast")]
+    [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
+    [ProducesResponseType((int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.NoContent)]
+    [ProducesResponseType((int)HttpStatusCode.Accepted)]
     public IEnumerable<WeatherForecast> Get()
     {
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -31,14 +36,9 @@ public class WeatherForecastController : ControllerBase
         .ToArray();
     }
 
-    [HttpPost(Name = "GetTeste")]
-    [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
-    [ProducesResponseType((int)HttpStatusCode.OK)]
-    [ProducesResponseType((int)HttpStatusCode.NoContent)]
-    [ProducesResponseType((int)HttpStatusCode.Accepted)]
-    public string GetTeste()
+    public void Teste()
     {
-        return "FIAP";
+        Photo photo = new("", new User());
     }
 }
 
