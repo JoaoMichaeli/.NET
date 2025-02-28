@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TDSPK.API.Persistence
 {
+    [Table("Photos")]
     public class Photo
     {
         [Key]
@@ -11,10 +13,13 @@ namespace TDSPK.API.Persistence
         public User User { get; private set; }
 
         [Required]
+        [Url]
         public string Url { get; private set; }
 
+        [Required]
         public int Lenght { get; set; }
 
+        [Required]
         public DateTime Date { get; private set; }
 
         public Photo(string url, User user)

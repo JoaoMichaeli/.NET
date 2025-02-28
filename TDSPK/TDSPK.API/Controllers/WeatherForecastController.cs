@@ -38,6 +38,9 @@ public class WeatherForecastController : ControllerBase
 
     public void Teste()
     {
+        var user = new User();
+        user.Status = Domain.Enums.StatusType.Active;
+
         Photo photo = new("", new User());
     }
 }

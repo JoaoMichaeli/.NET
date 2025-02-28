@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|c:\\users\\joaov\\documents\\fiap\\.net\\tdspk\\tdspk.api\\persistence\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|solutionrelative:tdspk.api\\persistence\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|c:\\users\\joaov\\documents\\fiap\\.net\\tdspk\\tdspk.api\\persistence\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|solutionrelative:tdspk.api\\persistence\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|c:\\users\\joaov\\documents\\fiap\\.net\\tdspk\\tdspk.api\\domain\\audictor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|solutionrelative:tdspk.api\\domain\\audictor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|c:\\users\\joaov\\documents\\fiap\\.net\\tdspk\\tdspk.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|solutionrelative:tdspk.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|c:\\users\\joaov\\documents\\fiap\\.net\\tdspk\\tdspk.api\\persistence\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|solutionrelative:tdspk.api\\persistence\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|c:\\users\\joaov\\documents\\fiap\\.net\\tdspk\\tdspk.api\\domain\\enums\\statustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|solutionrelative:tdspk.api\\domain\\enums\\statustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|c:\\users\\joaov\\documents\\fiap\\.net\\tdspk\\tdspk.api\\persistence\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F79D72C-1DA3-407F-9470-4B77F7AF881B}|TDSPK.API\\TDSPK.API.csproj|solutionrelative:tdspk.api\\persistence\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Persistence\\User.cs",
+              "RelativeDocumentMoniker": "TDSPK.API\\Persistence\\User.cs",
+              "ToolTip": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Persistence\\User.cs",
+              "RelativeToolTip": "TDSPK.API\\Persistence\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:56:04.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Audictor.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Domain\\Audictor.cs",
+              "RelativeDocumentMoniker": "TDSPK.API\\Domain\\Audictor.cs",
+              "ToolTip": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Domain\\Audictor.cs",
+              "RelativeToolTip": "TDSPK.API\\Domain\\Audictor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T14:59:07.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusType.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Domain\\Enums\\StatusType.cs",
+              "RelativeDocumentMoniker": "TDSPK.API\\Domain\\Enums\\StatusType.cs",
+              "ToolTip": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Domain\\Enums\\StatusType.cs",
+              "RelativeToolTip": "TDSPK.API\\Domain\\Enums\\StatusType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T14:56:34.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "TDSPK.API\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "TDSPK.API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T14:05:50.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Photo.cs",
               "DocumentMoniker": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Persistence\\Photo.cs",
               "RelativeDocumentMoniker": "TDSPK.API\\Persistence\\Photo.cs",
               "ToolTip": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Persistence\\Photo.cs",
               "RelativeToolTip": "TDSPK.API\\Persistence\\Photo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T13:54:30.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Persistence\\User.cs",
-              "RelativeDocumentMoniker": "TDSPK.API\\Persistence\\User.cs",
-              "ToolTip": "C:\\Users\\joaov\\Documents\\FIAP\\.NET\\TDSPK\\TDSPK.API\\Persistence\\User.cs",
-              "RelativeToolTip": "TDSPK.API\\Persistence\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T13:56:04.854Z",
               "EditorCaption": ""
             }
           ]
