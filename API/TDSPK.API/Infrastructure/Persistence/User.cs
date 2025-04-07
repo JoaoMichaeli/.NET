@@ -5,12 +5,26 @@ namespace TDSPK.API.Infrastructure.Persistence
 {
     public class User : Audit
     {
-        public Guid Id { get; set; }
-        public string Name { get; set; }      
+        public Guid Id { get; private set; }
+        public string Name { get; private set; }
 
-        public User()
+        //1..N
+        private readonly List<Photo> _photos = new();
+
+        public IReadOnlyCollection<Photo> Photos => _photos.AsReadOnly();
+
+        public User(string name)
         {
+            Id = Guid.NewGuid();
+            Name = name ?? throw new Exception("Nome não pode ser vazio");
             Status = StatusType.Active;
+        }
+
+        public void AddPhoto(url)
+        {
+            var photo = Photo.Create(url, Id);
+
+            _photos.Add(photo)
         }
     }
 }
