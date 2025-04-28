@@ -16,15 +16,15 @@ namespace TDSPK.API.Infrastructure.Persistence
         public User(string name)
         {
             Id = Guid.NewGuid();
-            Name = name ?? throw new Exception("Nome não pode ser vazio");
+            Name = name ?? throw new Exception("Nome nao pode ser vazio") ;
             Status = StatusType.Active;
         }
 
-        public void AddPhoto(url)
+        public void AddPhoto(string url)
         {
             var photo = Photo.Create(url, Id);
 
-            _photos.Add(photo)
+            _photos.Add(photo);
         }
     }
 }

@@ -7,6 +7,7 @@ using TDSPK.API.Infrastructure.Persistence;
 namespace TDSPK.API.Controllers
 {
     [Route("api/[controller]")]
+    [Tags("Fotos")]
     [ApiController]
     public class PhotosController : ControllerBase
     {
@@ -17,17 +18,35 @@ namespace TDSPK.API.Controllers
             _context = context;
         }
 
-        // GET: api/Photos
+        /// <summary>
+        /// Retorna uma lista de fotos
+        /// </summary>
+        /// <remarks>
+        /// Exemplo de Solicitação:
+        /// 
+        ///     GET api/photos
+        /// 
+        /// </remarks>
+        /// <response code = "200"> Retorna uma lista de fotos</response>
+        /// <response code = "500"> Erro interno do servidor</response>
+        /// <response code = "503"> Serviço indisponivel</response>
         [HttpGet]
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.ServiceUnavailable)]
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
+        
+
         public async Task<ActionResult<IEnumerable<Photo>>> GetPhotos()
         {
             return await _context.Photos.ToListAsync();
         }
 
         // GET: api/Photos/5
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<Photo>> GetPhoto(Guid id)
         {
@@ -41,39 +60,13 @@ namespace TDSPK.API.Controllers
             return photo;
         }
 
-        // PUT: api/Photos/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutPhoto(Guid id, Photo photo)
-        {
-            if (id != photo.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(photo).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!PhotoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
         // POST: api/Photos
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="photo"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<Photo>> PostPhoto(Photo photo)
         {
@@ -97,11 +90,6 @@ namespace TDSPK.API.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
-        }
-
-        private bool PhotoExists(Guid id)
-        {
-            return _context.Photos.Any(e => e.Id == id);
         }
     }
 }

@@ -14,10 +14,6 @@ namespace TDSPK.API.Infrastructure.Mappings
             builder
                 .HasKey("Id");
 
-            //builder
-            //    .Property(photo => photo.User)
-            //    .IsRequired();
-
             builder
                 .Property(photo => photo.Url)
                 .HasMaxLength(200)

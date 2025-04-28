@@ -1,9 +1,8 @@
 ﻿using TDSPK.API.Infrastructure.Persistence;
-using TDSPK.API.Migrations;
 
 namespace TDSPK.API.Infrastructure.Repositories
 {
-    public interface IRepository<T>
+    public interface IRepository<T> where T : class
     {
         Task<T> GetByIdAsync(Guid id);
         Task<IEnumerable<T>> GetByUserIdAsync();
